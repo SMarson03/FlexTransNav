@@ -1,0 +1,38 @@
+
+
+body{
+    font-family: 'RUBIK BUBBLES';
+    
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(255, 238, 0);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.navbar li{
+    float: left;
+    font-size: x-large;
+    text-align: center;
+    
+}
+.navbar a{
+    color: rgb(15, 14, 14);
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px black;
+
+}
+
+.navbar a:hover{
+    background-color: rgba(10, 110, 233, 0.825);
+}
